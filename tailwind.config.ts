@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      borderWidth: {
+        '15': '15px',
+        '26': '26px',
+      },
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',
       },
